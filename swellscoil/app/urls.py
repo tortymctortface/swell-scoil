@@ -1,12 +1,6 @@
-from django.urls import path, include
-from rest_framework.routers import DefaultRouter
-from .views import YourModelViewSet
-
-router = DefaultRouter()
-router.register(r'yourmodel', YourModelViewSet)
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('', include(router.urls)),
-    path('', index, name='index'),
-    path('api/', include('myapp.urls')),
+    path('example/<str:param1>/<int:param2>/', views.example_view, name='example_view'),
 ]

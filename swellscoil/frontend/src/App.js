@@ -1,14 +1,14 @@
 import React from 'react';
-import YourModelList from './components/YourModelList';
+import { Routes, Route } from 'react-router-dom';
+import ExampleComponent from './ExampleComponent';
 
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <YourModelList />
-            </header>
-        </div>
-    );
+  return (
+    <Routes>
+      <Route path="/api/example/:param1/:param2" element={<ExampleComponent />} />
+      {/* Other routes */}
+    </Routes>
+  );
 }
 
 export default App;

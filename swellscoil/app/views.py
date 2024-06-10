@@ -1,10 +1,8 @@
-from rest_framework import viewsets
-from .models import YourModel
-from .serializers import YourModelSerializer
+from django.http import JsonResponse
 
-class YourModelViewSet(viewsets.ModelViewSet):
-    queryset = YourModel.objects.all()
-    serializer_class = YourModelSerializer
-
-    def index(request):
-        return render(request, 'index.html')
+def example_view(request, param1, param2):
+    data = {
+        'param1': param1,
+        'param2': param2
+    }
+    return JsonResponse(data)

@@ -1,4 +1,17 @@
-# swell-scoi
+# swell-scoil
+
+
+## Django Development commands
+### `python3 -m venv venv`
+### `source venv/bin/activate`
+### `python3 manage.py startapp app`
+### `python3 manage.py makemigrations`
+### `python3 manage.py migrate`
+### `python3 manage.py runserver`
+
+### `development server at http://127.0.0.1:8000/`
+### `http://127.0.0.1:8000/api/example/test/123/`
+
 
 # Getting Started with Create React App
 

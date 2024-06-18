@@ -4,10 +4,10 @@
 ## Django Development commands
 ### `python3 -m venv venv`
 ### `source venv/bin/activate`
-### `python3 manage.py startapp app`
+### `python3 manage.py startapp app .. or maybe not?`
 ### `python3 manage.py makemigrations`
 ### `python3 manage.py migrate`
-### `python3 manage.py runserver`
+### `python3 manage.py runserver -- this starts your django app`
 
 ### `development server at http://127.0.0.1:8000/`
 ### `http://127.0.0.1:8000/api/example/test/123/`
@@ -15,16 +15,9 @@
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `cd Documents/GitHub/swell-scoil/swellscoil/frontend/`
+### ``npm start`
+### `Open [http://localhost:3000](http://localhost:3000) to view it in your browser.`
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
